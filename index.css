@@ -1,0 +1,66 @@
+	.navbar 
+	{
+		background-color: white;
+	    font-family: 'Roboto';
+	    font-size: 15px;
+	    padding: 10px; 
+	    color: 	#000000;
+	    border: 0;
+	}
+	
+	.navbar-brand {
+		color: #000000;
+		font-size: 25px;
+	}
+
+	.welcome-tab 
+	{ 
+		font-size: 400px;
+	    color: #000000;
+	    padding: 15px;
+	    padding-top: 120px;
+	    margin: 0px;
+	}
+
+	.carousel
+	{
+		padding: 50px;
+	}
+
+	.features-panel
+	{
+		padding: 30px;
+		margin: 0px;
+		background-color: #3F40C1;
+		color: #ffffff;
+		font-style: 'Roboto';
+	}
+
+	.feature-planks
+	{
+		color: #000000;
+	}
+
+	.footer-panel
+	{ 
+	    background-color: #2f2f2f;
+	    color: #ffffff;
+	    padding: 20px;
+	}
+
+	#headings
+	{
+		font-family: 'Fjalla One';
+	}
+
+	#testimonial-pictures
+	{
+		height: 200px;
+		width: 200px;
+		border-radius: 50%
+	}
+
+	#testimonial
+	{
+		font-style: italic;
+	}
