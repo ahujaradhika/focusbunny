@@ -1,0 +1,22 @@
+	.navbar 
+	{
+		background-color: white;
+	    font-family: 'Roboto';
+	    font-size: 15px;
+	    padding: 10px; 
+	    color: 	#000000;
+	    border: 0;
+	}
+	
+	.navbar-brand {
+		font-family: 'Fjalla One';	
+		color: #000000;
+		font-size: 25px;
+	}
+
+	.footer-panel
+	{ 
+	    background-color: #2f2f2f;
+	    color: #ffffff;
+	    padding: 20px;
+	}

@@ -1,0 +1,121 @@
+	
+			
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Buy focusbunny</title>	
+
+	<!-- Google API Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+
+	<!-- Icon -->
+	<link rel="shortcut icon" href="../focusbunny-logo.ico"/>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Local CSS Style Sheet -->
+	<link rel="stylesheet" href="buy-page.css" />	
+</head>
+
+<body>
+
+	<!-- NAV BAR -->
+	<nav class="navbar navbar-default navbar-fixed-top ">
+	  <div class="container-fluid">
+	    <ul class="nav navbar-nav navbar-left">
+	      <li><a href="../index.html" class="navbar-brand"><img src="../focusbunny-logo.png" height="100%"></a></li>
+	      <li><a href="../index.html" class="navbar-brand" style="color: rgb(0, 0, 0);"> focusbunny </a></li>
+	    </ul>
+	    <ul class="nav navbar-nav navbar-right">
+	      <li><a href="about.html" style="color: rgb(0, 0, 0)">About</a></li>
+	      <li><a href="template.html" style="color: rgb(0, 0, 0)">Buy Now</a></li>
+	      <li><a href="https://www.facebook.com/focusbunny/" target="_blank"><img src="../external-logos/FBlogo.png" height=25px width=25px></a></li>
+	      <li ><a href="https://www.instagram.com/focusbunny/" target="_blank"><img src="../external-logos/insta-logo.png" height=25px width=25px></a></li>
+		</ul>
+	  </div>
+	</nav>
+
+	<!-- PRODCUT PANEL -->
+	<div class="jumbotron text-center" style=" ">
+		<h1>Buy one for $3</h1>
+		<h2>Free shipping</h2>
+		<div class="row text-center product-images">
+			<div class="col-sm-6">
+				<img src="blue.png" height="80%" width="80%"/>
+			</div>
+			<div class="col-sm-6">
+				<img src="black.png" height="80%" width="80%"/>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-1"></div>
+			<div class="col-sm-4">
+			<form action="pay.php" method="POST">
+			  <script 
+			    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+			    data-label="Buy in Blue"
+			    data-key="pk_live_gN00AVPWkICKRNkqbccDr50k"
+			    data-amount="500"
+			    data-name="Focusbunny Blue"
+			    data-description="'Tempered focus'"
+			    data-image="blue.gif"
+			    data-locale="auto"
+			    data-shippingAddress="true"
+			    >
+			  </script>
+			</form> 
+			</div>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+			<form action="pay.php" method="POST">
+			  <script
+			    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+			    data-label="Buy in Black"
+			    data-key="pk_live_gN00AVPWkICKRNkqbccDr50k"
+			    data-amount="500"
+			    data-name="Focusbunny Black"
+			    data-description="'Sleek focus'"
+			    data-image="black.gif"
+			    data-locale="auto"   
+			    data-shippingAddress="true"
+			    >
+			  </script>
+			</form> 				
+			</div>
+			<div class="col-sm-1"></div>
+		</div>
+	</div>
+
+	<!-- FOOTER PANEL -->
+	<footer class="footer-panel container-fluid">
+	  <div class="row">
+	  	<!-- Contact and Copyright -->
+	  	<div class="col-sm-1"></div>
+	  	<div class="col-sm-3 text-left">
+	  		<p><strong>Contact us</strong><p>
+	  		<p>tylersgordon@gmail.com <br> +1 (818) 621-1679</p>
+	  	</div>
+	  	<div class="col-sm-4 text-center">
+	  		<p> <img src="../external-logos/USAflag.png" height="8%" width="8%" /> United States &nbsp  &nbsp@ 2018 focusbunny</p> 
+	  		 <p>All Rights Reserved</p> 
+	  	</div>
+	  	<!-- Social Media Info -->
+	  	<div class="col-sm-3 text-right">
+	  		<p><strong>Social Media</strong></p>
+	  		<a href="https://www.facebook.com/focusbunny/" target="_blank"><img src="../external-logos/FBlogo-grey.png" height=20px width=20px></a></li>
+	      	<a href="https://www.instagram.com/focusbunny/" target="_blank"><img src="../external-logos/insta-logo-grey.png" height=25px width=25px></a></li>
+	  	</div>
+	  	<div class="col-sm-1"></div>
+	  </div>
+	</footer>
+</body>
+
+</html>					    
